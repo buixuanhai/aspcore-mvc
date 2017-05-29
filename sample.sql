@@ -1,2 +1,5 @@
 -- List all tables
 SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
+
+-- List all users
+SELECT * FROM AspNetUsers;
